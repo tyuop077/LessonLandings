@@ -1,0 +1,21 @@
+body {
+    background-color: #202124;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li {
+    list-style-type: none;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    padding: 14px 25px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
