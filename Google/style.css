@@ -8,7 +8,7 @@ body {
 
 .navigation {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: flex-end;
 }
 
@@ -25,6 +25,8 @@ body {
 }
 
 li {
+    float: right;
+    margin: -20px -5px;
     list-style-type: none;
 }
 
