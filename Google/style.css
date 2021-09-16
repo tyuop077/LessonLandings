@@ -7,22 +7,21 @@ body {
     display: grid;
 }
 
-.navigation {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+.main {
+    /*display: flex;*/
 }
 
-#logo {
+.Logo, #searchBox, #buttons {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    object-position: center bottom;
-    object-fit: contain;
 }
 
 #search {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -47,4 +46,8 @@ a, a:link, a:visited {
 .user-info:hover, .app-picker:hover {
     background-color: rgba(232,234,237,0.08);
     border-radius: 50px;
+}
+
+.images:hover, .gmail:hover {
+    text-decoration: underline;
 }

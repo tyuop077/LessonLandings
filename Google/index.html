@@ -28,14 +28,20 @@
         </ul>
     </div>
 </header>
-<img id="logo" src="./images/logo.png" alt="">
-<form id="searchBox" role="search">
-    <label for="search">Поиск</label><input type="search" id="search"/>
-    <input class="startSearching" type="submit" value="Поиск в Google"/>
-</form>
-<form action="https://www.google.com/doodles">
-    <input type="submit" value="Мне повезёт!" />
-</form>
+<div class="main">
+    <div class="Logo">
+        <img id="logo" src="./images/logo.png" alt="">
+    </div>
+    <form id="searchBox" role="search">
+        <label for="search">Поиск</label><input type="search" id="search"/>
+        <div class=buttons">
+            <input class="startSearching" type="submit" value="Поиск в Google"/>
+            <form action="https://www.google.com/doodles">
+                <input type="submit" value="Мне повезёт!" />
+            </form>
+        </div>
+    </form>
+</div>
 </body>
 
 <script>
