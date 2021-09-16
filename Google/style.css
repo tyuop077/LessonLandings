@@ -51,3 +51,16 @@ a, a:link, a:visited {
 .images:hover, .gmail:hover {
     text-decoration: underline;
 }
+
+#search {
+    background: url("./images/search_icon.svg") center left 13px no-repeat;
+    border: 1px solid #e0e2e6;
+    border-radius: 40px;
+    width: 584px;
+    margin-top: 26px;
+    outline: none;
+    padding: 0 8px 0 47px;
+    height: 46px;
+    font-size: 14px;
+    color: white;
+}
