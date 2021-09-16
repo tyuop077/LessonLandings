@@ -2,10 +2,26 @@ body {
     background-color: #202124;
 }
 
+.header {
+    display: grid;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    object-position: center bottom;
+    object-fit: contain;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
 }
 
 li {
