@@ -59,7 +59,7 @@ li {
     list-style-type: none;
 }
 
-a:not([class="footerNews"]), a:link:not([class="footerNews"]), a:visited:not([class="footerNews"]) {
+#header a, #header a:link, #header a:visited {
     text-decoration: none;
     padding: 14px 25px;
     color: white;
@@ -73,7 +73,7 @@ a:not([class="footerNews"]), a:link:not([class="footerNews"]), a:visited:not([cl
     border-radius: 50px;
 }
 
-.images:hover, .gmail:hover {
+#header .images:hover, #header .gmail:hover {
     text-decoration: underline;
 }
 
@@ -113,7 +113,7 @@ footer {
     margin-top: 5px;
 }
 
-a[class="footerNews"], a[class="footerNews"]:link, a[class="footerNews"]:visited {
+.footerContent.a, .footerContent.a:link, .footerContent.a:visited {
     color: #999da2;
 }
 
@@ -126,5 +126,15 @@ a[class="footerNews"], a[class="footerNews"]:link, a[class="footerNews"]:visited
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #5f6368;
+    padding: 14px 25px;
+    text-align: center;
+    font: 14px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368
+}
+a:hover {
+    text-decoration: underline;
 }
