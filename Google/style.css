@@ -11,11 +11,32 @@ body {
     /*display: flex;*/
 }
 
-.Logo, #searchBox, #buttons {
+.Logo, #searchBox, .buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.buttons {
+    flex-direction: row;
+}
+
+.startSearching, .lucky {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 #search {
