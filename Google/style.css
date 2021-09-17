@@ -123,5 +123,8 @@ a[class="footerNews"], a[class="footerNews"]:link, a[class="footerNews"]:visited
 }
 
 .footerButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: #5f6368;
 }
