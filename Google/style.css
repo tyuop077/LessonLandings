@@ -122,10 +122,6 @@ a[class="footerNews"], a[class="footerNews"]:link, a[class="footerNews"]:visited
     text-align: center;
 }
 
-.footerContent {
-
-}
-
-.ft {
-    color: red;
+.footerButtons {
+    color: #5f6368;
 }
